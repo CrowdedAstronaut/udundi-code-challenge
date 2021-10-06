@@ -1,0 +1,22 @@
+{
+  "name": "udundi-code-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrowdedAstronaut/udundi-code-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrowdedAstronaut/udundi-code-challenge/issues"
+  },
+  "homepage": "https://github.com/CrowdedAstronaut/udundi-code-challenge#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.2"
+  }
+}
