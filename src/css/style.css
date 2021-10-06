@@ -1,0 +1,13 @@
+@import url("src/fonts/essones/style.css");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("src/assets/coding-challenge-background.svg");
+  height: 100vh;
+}
+
+h1 {
+  font: 11rem "Essones Bold", Arial, Helvetica, sans-serif;
+}
