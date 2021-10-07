@@ -3,6 +3,14 @@
   box-sizing: border-box;
 }
 
+* {
+  border: 1px solid red;
+}
+
+body {
+  max-width: 1440px;
+}
+
 h1 {
   font: 11rem "Essones Bold", Arial, Helvetica, sans-serif;
   color: white;
@@ -13,16 +21,48 @@ p {
   color: white;
   padding: 0rem 0rem 2rem 2rem;
 }
-/* .container {
-  width: 100px;
-  height: 100px;
+.container {
+  width: 100%;
+  height: 100%;
   position: relative;
 }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
 .bg-image {
+  background-image: url("../assets/coding-challenge-background.jpg");
   width: 100%;
   height: 100%;
   position: absolute;
+  background-repeat: no-repeat;
   top: 0;
   left: 0;
-  z-index: 10;
-} */
+}
+
+.red-box {
+  top: 0;
+  left: 0;
+  height: 1024px;
+  width: 34%;
+  z-index: 2;
+  background: #611818;
+  position: absolute;
+}
+
+.content {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 3;
+}
+
+.social-media {
+  position: absolute;
+  z-index: 3;
+  bottom: 1;
+  right: 1;
+}
