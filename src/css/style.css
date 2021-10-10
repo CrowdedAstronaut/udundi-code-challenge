@@ -1,6 +1,6 @@
 html {
-  background: url("../assets/coding-challenge-background.jpg")
-    no-repeat center center fixed;
+  background: url("../assets/coding-challenge-background.jpg") no-repeat center
+    center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,7 +54,7 @@ h2 {
 }
 
 .content {
-  top: 700px;
+  top: 600px;
   left: 200px;
   position: absolute;
   z-index: 3;
@@ -87,5 +87,9 @@ h2 {
   }
   .red-box {
     height: 200px;
+  }
+  .content {
+    top: 0;
+    left: 0;
   }
 }
