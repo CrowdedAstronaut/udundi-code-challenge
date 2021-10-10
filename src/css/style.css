@@ -87,6 +87,9 @@ h5 {
   position: absolute;
   z-index: 100;
 }
+.modal-backdrop {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   h1 {
