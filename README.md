@@ -21,9 +21,9 @@ This was a front-end coding challenge for Udundi, in Austin, TX.
 ![udundi-mobile-mockup-expanded](https://user-images.githubusercontent.com/65795477/136682768-10c57c58-fee2-4478-8624-e55f01e67e2c.jpg)
 
 # Performance
-##Desktop
+## Desktop
 ![Udundi_Lighthouse_Report_Desktop](https://user-images.githubusercontent.com/65795477/136716499-eeaa8840-c5d3-4af7-9cbf-ef30eca4506e.png)
-##Mobile
+## Mobile
 ![Udundi_Lighthouse_Report_Mobile](https://user-images.githubusercontent.com/65795477/136716682-342b7a4a-0142-4943-8562-1268abf32938.png)
 
 
