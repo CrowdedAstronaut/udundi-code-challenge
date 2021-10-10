@@ -1,6 +1,6 @@
 html {
-  background: url("../assets/coding-challenge-background.jpg") no-repeat center
-    center fixed;
+  background: url("../assets/coding-challenge-background.jpg")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,7 +9,7 @@ html {
 
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 h1 {
@@ -49,6 +49,7 @@ p {
   z-index: 2;
   background: #611818;
   position: absolute;
+  display: inline;
 }
 
 .content {
@@ -61,6 +62,25 @@ p {
 .social-media {
   position: fixed;
   z-index: 3;
-  right: 15px;
-  bottom: 10px;
+  right: 25px;
+  bottom: 35px;
+}
+
+.facebook {
+  padding-bottom: 7px;
+  align-items: center;
+}
+
+.instagram {
+  align-items: center;
+  padding-top: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .red-box {
+    height: 200px;
+  }
 }
