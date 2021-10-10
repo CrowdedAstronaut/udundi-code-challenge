@@ -1,6 +1,6 @@
 html {
-  background: url("../assets/coding-challenge-background.jpg")
-    no-repeat center center fixed;
+  background: url("../assets/coding-challenge-background.jpg") no-repeat center
+    center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -34,8 +34,9 @@ h2 {
 
 h5 {
   font-family: essonnes-text, serif;
-  color: #6118;
+  color: #611818;
   text-decoration: underline;
+  font-size: 3rem;
 }
 .container {
   width: 100%;
@@ -90,6 +91,13 @@ h5 {
 .modal-backdrop {
   display: none;
 }
+.modal-body {
+  padding: 0% 5% 0% 5%;
+}
+.modal-dialog {
+  line-height: 300%;
+  padding: 0% 5% 0% 5%;
+}
 
 @media only screen and (max-width: 600px) {
   h1 {
@@ -103,7 +111,7 @@ h5 {
     height: 200px;
   }
   .content {
-    top: 0;
-    left: 0;
+    top: 50px;
+    left: 50px;
   }
 }
