@@ -12,10 +12,6 @@ html {
   border: 1px solid red;
 }
 
-/* body {
-  max-width: 1440px;
-} */
-
 h1 {
   font-family: essonnes-text, serif;
   font-weight: 700;
@@ -44,15 +40,6 @@ p {
   padding-right: 0;
   padding-left: 0;
 }
-/* .bg-image {
-  background-image: url("../assets/coding-challenge-background.jpg");
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-
-  top: 0;
-  left: 0;
-} */
 
 .red-box {
   top: 0;
