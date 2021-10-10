@@ -1,5 +1,5 @@
 ## Project Description:
-
+This was a front-end coding challenge for Udundi, in Austin, TX.
 
 ## Project Wireframes
 # Desktop Mockup
@@ -20,25 +20,22 @@ Bootstrap 5
 JavaScript
 
 ## Learning Experience
-Setting Up Project Worksheet
-Refer to the project-worksheet markdown to read over the:
 
-## Overall Project Description
-Estimate and Actual Project Schedule
-User Stories
-Wireframes
-Time/Priority Matrix
+
+
+## User Stories
 
 ## Setting Up Core Structure
-First, with the help of HTML, set up a container and loop the amount of grid to be append to the game area. Afterwards, set an attribute to the class. This attribute will be used to control / move the engineer.
+Prior to starting the desktop design, I re-wireframed it with a mobile-first methodology and created that layout first. With the help of HTML/Bootstrap, I centered the background on the HTML element, and then I used a combination of absolute, relative, fixed, and static positioning in order to achieve this layout. Layering the containers on top of each other required use of the z-index property.
 
 ## Arranging the elements on the page using Bootstrap, Flexbox, and CSS.
 
 ## Focusing on User Experience / Accessability
-With the mindset of "mobile first" elements are stacked on the site. One of the concerns was making the modal center to the page on mobile. By @media a min width of 768. The game is centered to an i-Pad to a desktop.
+With the mindset of "mobile first" elements are stacked on the site. One of the concerns was making the modal center to the page on mobile. By using a @media query with a max width of 600px, the site is centered on an iPhone13. I arranged the rest of the elements using a combination of Bootstrap 5 classes, Flexbox, and vanilla CSS.
 
 
+## Problem Areas/Blockers
 
-## Problem Areas
 
 ## Future Directions
+In the future, I'd like to utilize more of Bootstrap's built in classes and SASS to normalize the stylesheet for deployment in the wild. I'd also like to rebuild it using functional components in VueJS as opposed to traditional DOM manipulation.
