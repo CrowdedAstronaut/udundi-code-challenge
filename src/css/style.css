@@ -19,9 +19,14 @@ html {
 } */
 
 h1 {
-  font: 11rem "Essones Bold", Arial, Helvetica, sans-serif;
+  font-family: essonnes-text, serif;
+  font-weight: 700;
+  font-style: normal;
   color: white;
   margin-bottom: 0;
+  font-size: 224px;
+  letter-spacing: 5.6px;
+  text-align: center;
 }
 
 p {
