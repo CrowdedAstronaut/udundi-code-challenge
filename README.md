@@ -30,7 +30,7 @@ This was a front-end coding challenge for Udundi, in Austin, TX.
 ## Technologies Used:
 
 <div>
-  <p>
+    <p align="center">
       <img
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
         alt="css3"
