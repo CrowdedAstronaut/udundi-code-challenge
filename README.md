@@ -37,7 +37,6 @@ This was a front-end coding challenge for Udundi, in Austin, TX.
         width="40"
         height="40"
       />
-
       <img
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
         alt="html5"
